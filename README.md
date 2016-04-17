@@ -5,7 +5,9 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 
 **Some good reference links**
 
-http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+* http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+* http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+* http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 
 Some stuff coming `soon™`.
 
