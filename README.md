@@ -11,5 +11,5 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 
 Some stuff coming `soon™`.
 
-I left this link here for me becasue I know I'll need it again at some point.
+I left this GitHub editor style link here for me becasue I know I'll need it again at some point.
 [don't mine me c:](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "(old man voice) GET OUTTA HERE!!")
