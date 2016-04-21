@@ -15,12 +15,10 @@ https://css-tricks.com/centering-css-complete-guide/
 
 ## Type Attributes
 
-* Do not add `type="text/css" to` stylesheet link tags
-* Do not add `type="text/javascript"` to javascript script tags
+* Do not add `type="text/css"` to stylesheet link tags.
+* Do not add `type="text/javascript"` to javascript script tags.
 
-http://stackoverflow.com/questions/5409114/is-type-text-css-necessary-in-a-link-tag
-
-tldr Different file types may have been avilable in HTML4 but were dropped and never used.
+In HTML5 the default value for the `type` attribute will always be text so it's not needed with those two tags.
 
 Example:
 ```
