@@ -38,24 +38,35 @@ Example:
 
 
 ## Project Organization
+*** NOT FINISHED !! ***
 
 * Always keep two directories, `src` (for Source) and `dist` (for Distribution)
 * `src` will include all of the files of the project before compilation and concatnation. 
 * `dist` will include only concatnated and compiled assets. Do not include SASS, 
 
 Things to think about:
-* Should libs like bootstrap and jquery be inside the css and js directories or make a "libs" directory?
 * Are different views considered resources? Because in a way, they kind of are... 
+* Different html pages that are included i nthe website. includes directory maybe?
 
-*** NOT FINISHED !! **
 Example:
 ```
 ├── //root
 |
-├── views
+├── views //All of the pages in the website.
 |   ├── page0.php //Eg. Homepage
 |   ├── page1.php //Eg. About Us
 |   └── page2.php //Eg. Contact Us
+|
+├── libs //(Libraries)
+|   ├── css
+|   |   ├── bootstrap.css
+|   |   └── bootstrap.min.css
+|   |
+|   └── js
+|       ├── jQuery.js
+|       ├── jQuery.min.js
+|       ├── angularJS.js
+|       └── angularJS.min.js
 |
 └── res //(Resources)
     ├── css
@@ -107,7 +118,7 @@ Example:
 
 
 
-
+# Notes
 Some more stuff coming `soon™`.
 
 I left this GitHub editor style link here for me becasue I know I'll need it again at some point.
