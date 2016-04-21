@@ -37,8 +37,73 @@ Example:
 ```
 
 
+## Project Organization
 
+* Always keep two directories, `src` (for Source) and `dist` (for Distribution)
+* `src` will include all of the files of the project before compilation and concatnation. 
+* `dist` will include only concatnated and compiled assets. Do not include SASS, 
 
+Things to think about:
+* Should libs like bootstrap and jquery be inside the css and js directories or make a "libs" directory?
+* Are different views considered resources? Because in a way, they kind of are... 
+
+*** NOT FINISHED !! **
+Example:
+```
+├── //root
+|
+├── views
+|   ├── page0.php //Eg. Homepage
+|   ├── page1.php //Eg. About Us
+|   └── page2.php //Eg. Contact Us
+|
+└── res //(Resources)
+    ├── css
+    |   └── style.css //compiled and concatnated style.scss
+    |
+    ├── graphics
+    |   ├──   picture0.png
+    |   ├──   picture0.jpg
+    |   ├──   logo.svg
+    |   └──   favicon.ico
+    |
+    ├── js
+    |   ├──   app.js
+    |   └──   libs
+    |         └──   jquery.js
+    |
+    ├── sass
+    |   └── compiled.scss
+    |       └── project
+    |           ├── _project-fonts.scss
+    |           ├── _project-styles.scss
+    |           ├── _project-variables.scss
+    |           |
+    |           ├── components
+    |           |   ├── _buttons.scss
+    |           |   ├── _lists.scss
+    |           |   └── _inputs.scss
+    |           |
+    |           ├── grid
+    |           |   └── _grid.scss
+    |           |
+    |           ├── partials
+    |           |   ├── _header.scss
+    |           |   ├── _masthead.scss
+    |           |   └── _footer.scss
+    |           |   
+    |           └── globals
+    |               ├── _mixins.scss
+    |               ├── _typography.scss
+    |               ├── _reset.scss
+    |               └── _base.scss
+    |
+    └── fonts
+        ├──   font0.ttf
+        ├──   font0.eot //.eot is used for IE
+        ├──   font1.ttf
+        └──   font1.eot //.eot is used for IE
+```
 
 
 
