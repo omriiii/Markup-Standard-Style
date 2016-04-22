@@ -13,10 +13,16 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 I also keep forgetting how to center things properly, so until I do, here's a pretty neat link:
 https://css-tricks.com/centering-css-complete-guide/
 
+## HTML Formatting Rules
+*** NOT FINISHED !! ***
+
+* Never close self-closing tags such as `hr`, `br`, `img`, or `input`.
+* Always include an `alt` attribute to  `img` tags.
+
 ## Type Attributes
 
-* Do not add `type="text/css"` to stylesheet link tags.
-* Do not add `type="text/javascript"` to javascript script tags.
+* Never add `type="text/css"` to stylesheet link tags.
+* Never add `type="text/javascript"` to javascript script tags.
 
 In HTML5 the default value for the `type` attribute will always be text so it's not needed with those two tags.
 
