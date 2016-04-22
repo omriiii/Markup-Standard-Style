@@ -49,8 +49,7 @@ Example:
 * `dist` will include only concatnated and compiled assets. Do not include SASS, 
 
 Things to think about:
-* Are different views considered resources? Because in a way, they kind of are... 
-* Different html pages that are included i nthe website. includes directory maybe?
+* Different html pages that are included in the website. includes directory maybe? (things like navbar.html)
 
 Example:
 ```
@@ -84,11 +83,10 @@ Example:
     |
     ├── js
     |   ├──   app.js
-    |   └──   libs
-    |         └──   jquery.js
+    |   └──   functions.js
     |
     ├── sass
-    |   └── compiled.scss
+    |   └── style.scss
     |       └── project
     |           ├── _project-fonts.scss
     |           ├── _project-styles.scss
