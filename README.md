@@ -21,8 +21,8 @@ https://css-tricks.com/centering-css-complete-guide/
 
 ## Type Attributes
 
-* Never add `type="text/css"` to stylesheet link tags.
-* Never add `type="text/javascript"` to javascript script tags.
+* Never add a`type="text/css"` attribute to stylesheet link tags.
+* Never add a `type="text/javascript"` attribute to javascript script tags.
 
 In HTML5 the default value for the `type` attribute will always be text so it's not needed with those two tags.
 
@@ -40,6 +40,10 @@ Example:
 <script type="text/javascript" src="js/script.js"></script>`
 ```
 
+## CSS3 Animations
+*** NOT FINISHED !! ***
+
+* Always use the `transform` property when animating elements with CSS.
 
 ## Project Organization
 *** NOT FINISHED !! ***
