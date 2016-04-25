@@ -101,9 +101,6 @@ Example:
     |           |   ├── _lists.scss
     |           |   └── _inputs.scss
     |           |
-    |           ├── grid
-    |           |   └── _grid.scss
-    |           |
     |           ├── partials
     |           |   ├── _header.scss
     |           |   ├── _masthead.scss
