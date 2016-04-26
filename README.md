@@ -15,14 +15,22 @@ https://css-tricks.com/centering-css-complete-guide/
 ## HTML Formatting Rules
 *** NOT FINISHED !! ***
 
-* Always comment segemnts in the `head` tag. Eg. "Libraries", "Stylesheets", "Meta tags", etc.
-* Always indet child every child element.
+* Always indet child every child element. Only exception is if the child is a realtively short string of characters.
 * Always indet using *only* the "tab" character `(ascii: 9)`. Never use 4 "space" characters `(ascii: 32)`. 
 * Never close self-closing tags such as `hr`, `br`, `img`, or `input`.
 * Always include an `alt` attribute to `img` tags.
 
-## Type Attributes
 
+Example:
+```
+<body>
+    <!-- Some code -->
+</body>
+```
+
+## Head tag & Type Attributes
+
+* Always comment segemnts in the `head` tag. Eg. "Libraries", "Stylesheets", "Meta tags", etc.
 * Never add a`type="text/css"` attribute to stylesheet `link` tags.
 * Never add a `type="text/javascript"` attribute to javascript `script` tags.
 
@@ -30,16 +38,26 @@ In HTML5 the default value for the `type` attribute will always be text so it's 
 
 Example:
 ```
-<!-- Good -->
+<head>
+    <!-- PAGE INFO & META TAGS -->
+	<!---------------------------------------------->
+	
+	<meta charset="UTF-8">
+	<meta name="author" content="Omrii">
+	<meta name="description" content="Head tag & Type Attributes example.">
+	<title>Title of page</title>
+		
+		
+	<!-- LIBRARIES -->
+	<!---------------------------------------------->
 
-<link rel="stylesheet" href="style.css">
-<script src="js/script.js"></script>`
-
-
-<!-- Bad -->
-
-<link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="js/script.js"></script>`
+	<!-- BOOTSTRAP CSS -->
+    <link href="/res/libs/css/bootstrap.min.css" rel="stylesheet">
+    
+	<!-- JQUERY JS -->
+    <script src="/res/libs/js/jquery.min.js"></script>`
+    
+</head>
 ```
 
 ## CSS3 Animations
