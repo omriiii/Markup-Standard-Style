@@ -15,7 +15,7 @@ https://css-tricks.com/centering-css-complete-guide/
 ## HTML Formatting Rules
 *** NOT FINISHED !! ***
 
-* Always indet child every child element. Only exception is if the child is a realtively short string of characters.
+* Always indet child every child element.
 * Always indet using *only* the "tab" character `(ascii: 9)`. Never use 4 "space" characters `(ascii: 32)`. 
 * Never close self-closing tags such as `hr`, `br`, `img`, or `input`.
 * Always include an `alt` attribute to `img` tags.
