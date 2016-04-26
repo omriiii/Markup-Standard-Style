@@ -23,9 +23,10 @@ https://css-tricks.com/centering-css-complete-guide/
 
 Example:
 ```
-<body>
-    <!-- Some code -->
-</body>
+<main>
+	<img src="url(/res/imgs/latte_coffee.png)" alt="A picture of a good old cup of coffee.">
+	<!-- Some more code coming soon -->
+</main>
 ```
 
 ## Head tag & Type Attributes
