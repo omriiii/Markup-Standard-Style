@@ -15,13 +15,16 @@ https://css-tricks.com/centering-css-complete-guide/
 ## HTML Formatting Rules
 *** NOT FINISHED !! ***
 
+* Always comment segemnts in the `head` tag. Eg. "Libraries", "Stylesheets", "Meta tags", etc.
+* Always indet child every child element.
+* Always indet using *only* the "tab" character `(ascii: 9)`. Never use 4 "space" characters `(ascii: 32)`. 
 * Never close self-closing tags such as `hr`, `br`, `img`, or `input`.
-* Always include an `alt` attribute to  `img` tags.
+* Always include an `alt` attribute to `img` tags.
 
 ## Type Attributes
 
-* Never add a`type="text/css"` attribute to stylesheet link tags.
-* Never add a `type="text/javascript"` attribute to javascript script tags.
+* Never add a`type="text/css"` attribute to stylesheet `link` tags.
+* Never add a `type="text/javascript"` attribute to javascript `script` tags.
 
 In HTML5 the default value for the `type` attribute will always be text so it's not needed with those two tags.
 
@@ -47,16 +50,16 @@ Example:
 ## Project Organization
 *** NOT FINISHED !! ***
 
-* Always keep two directories, `src` (for Source) and `dist` (for Distribution)
+* Always keep two directories for your project, `src` (for Source) and `dist` (for Distribution)
 * `src` will include all of the files of the project before compilation and concatnation. 
-* `dist` will include only concatnated and compiled assets. Do not include SASS, 
+* `dist` will include only concatnated and compiled assets. Do not include SASS files.
 
 Things to think about:
 * Different html pages that are included in the website. includes directory maybe? (things like navbar.html)
 
 Example:
 ```
-├── //root
+//root
 |
 ├── views //All of the pages in the website.
 |   ├── page0.php //Eg. Homepage
