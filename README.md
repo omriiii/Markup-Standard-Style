@@ -10,7 +10,6 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 * Another Link
 * Another Link
 
-I also keep forgetting how to center things properly, so until I do, here's a pretty neat link:
 https://css-tricks.com/centering-css-complete-guide/
 
 ## HTML Formatting Rules
