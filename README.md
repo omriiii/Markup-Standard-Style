@@ -18,9 +18,9 @@ https://gsnedders.html5.org/outliner/
 
 * Always indet child every child element.
 * Always indet using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
-* Always include an `alt` attribute to `img` tags.
+* Always include an `alt=""` attribute to `<img>` tags.
 * Avoid using `"` and `'` in your content. Use `&lsquo;`/`&rsquo;`, `&ldquo;`/`&rdquo;` (`‘`, `’`, `“`, `”`) instead. 
-* Never close self-closing tags such as `hr`, `br`, `img`, or `input`.
+* Never close self-closing tags such as `<hr>`, `<br>`, `<img>`, or `<input>`.
 * Never use inline css or inline javascript
 
 Example:
@@ -33,9 +33,9 @@ Example:
 
 ## Head tag & Type Attributes
 
-* Always comment segemnts in the `head` tag. Eg. "Libraries", "Stylesheets", "Meta tags", etc.
-* Never add a`type="text/css"` attribute to stylesheet `link` tags.
-* Never add a `type="text/javascript"` attribute to javascript `script` tags.
+* Always comment segemnts in the `<head>` tag. Eg. "Libraries", "Stylesheets", "Meta tags", etc.
+* Never add a`type="text/css"` attribute to stylesheet `<link>` tags.
+* Never add a `type="text/javascript"` attribute to javascript `<script>` tags.
 
 In HTML5 the default value for the `type` attribute will always be text so it's not needed with those two tags.
 
