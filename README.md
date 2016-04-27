@@ -18,9 +18,10 @@ https://gsnedders.html5.org/outliner/
 
 * Always indet child every child element.
 * Always indet using *only* the "tab" character `(ascii: 9)`. Never use 4 "space" characters `(ascii: 32)`. 
-* Never close self-closing tags such as `hr`, `br`, `img`, or `input`.
 * Always include an `alt` attribute to `img` tags.
-
+* Avoid using `"` and `'` in your content. Use `&lsquo;`/`&rsquo;`, `&ldquo;`/`&rdquo;` (`‘`, `’`, `“`, `”`) instead. 
+* Never close self-closing tags such as `hr`, `br`, `img`, or `input`.
+* Never use inline css or inline javascript
 
 Example:
 ```
@@ -144,12 +145,12 @@ Example:
 
 
 ## Website testing
-Sometimes some tag usage will fly over your head. Use these websites to check if your markup is good.
-- https://gsnedders.html5.org/outliner/ (Example article: https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/)
-- http://html5doctor.com/
+Sometimes you will overlook/misuse your markups. Use these websites to check if they're okay.
+* https://gsnedders.html5.org/outliner/ (Example article: https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/)
+* http://html5doctor.com/
 - 
 
-# Notes
+### Notes
 Some more stuff coming `soon™`.
 
 I left this GitHub editor style link here for me becasue I know I'll need it again at some point.
