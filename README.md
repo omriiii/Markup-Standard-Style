@@ -17,7 +17,7 @@ https://gsnedders.html5.org/outliner/
 *** NOT FINISHED !! ***
 
 * Always indet child every child element.
-* Always indet using *only* the "tab" character `(ascii: 9)`. Never use 4 "space" characters `(ascii: 32)`. 
+* Always indet using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
 * Always include an `alt` attribute to `img` tags.
 * Avoid using `"` and `'` in your content. Use `&lsquo;`/`&rsquo;`, `&ldquo;`/`&rdquo;` (`‘`, `’`, `“`, `”`) instead. 
 * Never close self-closing tags such as `hr`, `br`, `img`, or `input`.
