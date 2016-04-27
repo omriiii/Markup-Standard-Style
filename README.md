@@ -12,6 +12,7 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 
 https://css-tricks.com/centering-css-complete-guide/
 
+https://gsnedders.html5.org/outliner/
 ## HTML Formatting Rules
 *** NOT FINISHED !! ***
 
@@ -65,6 +66,7 @@ Example:
 *** NOT FINISHED !! ***
 
 * Always use the `transform` property when animating elements with CSS.
+* You have a lot of options! Pick the best ones: https://api.jqueryui.com/easings/
 
 ## Project Organization
 *** NOT FINISHED !! ***
@@ -141,6 +143,11 @@ Example:
 ```
 
 
+## Website testing
+Sometimes some tag usage will fly over your head. Use these websites to check if your markup is good.
+- https://gsnedders.html5.org/outliner/ (Example article: https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/)
+- http://html5doctor.com/
+- 
 
 # Notes
 Some more stuff coming `soon™`.
