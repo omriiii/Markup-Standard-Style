@@ -71,6 +71,19 @@ Example:
 * Always use the `transform` property when animating elements with CSS.
 * You have a lot of options! Pick the best ones: https://api.jqueryui.com/easings/
 
+## Resource File Naming
+* Always use underscores characters (`_`) to specify catagorical context to a file. (Eg. "nav", "hero", "footer")
+* Always use dash characters (`-`) to specify an attribute/attributes about a file. (Eg. "large", "owen", "min")
+* Always use lowercase letters.
+* Always start with zero when enumerating files. (Eg. `bg0.png`, `bg1.png`, `bg2.png`, etc...)
+
+Example:
+```
+nav_companylogo.png
+nav_companylogo-large.png
+avatar-default
+avatar-large-
+```
 ## Project Organization
 *** NOT FINISHED !! ***
 
