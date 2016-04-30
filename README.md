@@ -16,6 +16,7 @@ https://gsnedders.html5.org/outliner/
 ## HTML Formatting Rules
 *** NOT FINISHED !! ***
 
+* Always indent children elements. A few exceptions below...
 * Always indet using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
 * Always include an `alt=""` attribute to `<img>` tags.
 * Avoid using `"` and `'` in your content. Use `&lsquo;`/`&rsquo;`, `&ldquo;`/`&rdquo;` (`‘`, `’`, `“`, `”`) instead. 
@@ -32,8 +33,29 @@ Example:
 </figure>
 ```
 
-## HTML Formatting Rules
-Lean Markup
+## Indenting Exceptions (both HTML and CSS/SASS)
+* (HTML) You can pass up indenting for headers if the length of the content is relatively short.
+* (CSS/SASS) You can pass up indenting if you're defining only one property in a series of related elements.
+
+##### HTML
+```
+<section>
+	<h1>Coffee</h1>
+	<p>
+		Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant. The genus Coffea is native to tropical Africa, Madagascar, and the Comoros, Mauritius and Réunion in the Indian Ocean.
+	</p>
+</section>
+```
+
+##### CSS/SASS
+```
+	h1, .h1{ font-size: 72px;}
+	h2, .h2{ font-size: 64px;}
+	h3, .h3{ font-size: 48px;}
+	h4, .h4{ font-size: 36px;}
+	h5, .h5{ font-size: 28px;}
+```
+
 ## Head tag & Type Attributes
 
 * Always comment segemnts in the `<head>` tag. Eg. "Libraries", "Stylesheets", "Meta tags", etc.
