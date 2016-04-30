@@ -42,7 +42,9 @@ Example:
 <section>
 	<h1>Coffee</h1>
 	<p>
-		Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea plant. The genus Coffea is native to tropical Africa, Madagascar, and the Comoros, Mauritius and Réunion in the Indian Ocean.
+		Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from 
+		the Coffea plant. The genus Coffea is native to tropical Africa, Madagascar, and the Comoros,
+		Mauritius and Réunion in the Indian Ocean.
 	</p>
 </section>
 ```
