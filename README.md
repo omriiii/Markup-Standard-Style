@@ -16,7 +16,6 @@ https://gsnedders.html5.org/outliner/
 ## HTML Formatting Rules
 *** NOT FINISHED !! ***
 
-* Always indet child every child element.
 * Always indet using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
 * Always include an `alt=""` attribute to `<img>` tags.
 * Avoid using `"` and `'` in your content. Use `&lsquo;`/`&rsquo;`, `&ldquo;`/`&rdquo;` (`‘`, `’`, `“`, `”`) instead. 
@@ -33,6 +32,8 @@ Example:
 </figure>
 ```
 
+## HTML Formatting Rules
+Lean Markup
 ## Head tag & Type Attributes
 
 * Always comment segemnts in the `<head>` tag. Eg. "Libraries", "Stylesheets", "Meta tags", etc.
