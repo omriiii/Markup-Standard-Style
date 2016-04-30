@@ -25,10 +25,12 @@ https://gsnedders.html5.org/outliner/
 
 Example:
 ```
-<main>
+<figure>
 	<img src="url(/res/imgs/latte_coffee.png)" alt="A picture of a good old cup of coffee.">
-	<!-- Some more code coming soon -->
-</main>
+	<figcaption>
+		A good cup of &ldquo;Starbucks&rdquo; coffee.
+	</figcaption>
+</figure>
 ```
 
 ## Head tag & Type Attributes
