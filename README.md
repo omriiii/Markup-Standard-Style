@@ -85,7 +85,7 @@ Example:
     <link href="/res/libs/css/bootstrap.min.css" rel="stylesheet">
     
 	<!-- JQUERY JS -->
-    <script src="/res/libs/js/jquery.min.js"></script>`
+    <script src="/res/libs/js/jquery.min.js"></script>
     
 </head>
 ```
