@@ -191,7 +191,7 @@ Sometimes you will overlook/misuse your markups. Use these websites to check if 
 * https://gsnedders.html5.org/outliner/ 
 * Outlining article: https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
 * http://html5doctor.com/
-- 
+* https://toolbox.seositecheckup.com/ (15 Free checks *per account ;)*)
 
 ### Notes
 Some more stuff coming `soon™`.
