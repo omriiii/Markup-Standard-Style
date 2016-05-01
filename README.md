@@ -11,7 +11,6 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 * Another Link
 
 
-https://gsnedders.html5.org/outliner/
 ## HTML Formatting Rules
 *** NOT FINISHED !! ***
 
@@ -189,7 +188,8 @@ Example:
 
 ## Website testing
 Sometimes you will overlook/misuse your markups. Use these websites to check if they're okay.
-* https://gsnedders.html5.org/outliner/ (Example article: https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/)
+* https://gsnedders.html5.org/outliner/ 
+* Outlining article: https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
 * http://html5doctor.com/
 - 
 
