@@ -19,6 +19,7 @@ https://gsnedders.html5.org/outliner/
 * Always indent children elements. A few exceptions below...
 * Always indet using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
 * Always include an `alt=""` attribute to `<img>` tags.
+* Try to use the [BEM (Block Element Modifier)]("http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/") naming convention when possible.
 * Avoid using `"` and `'` in your content. Use `&lsquo;`/`&rsquo;` and `&ldquo;`/`&rdquo;` (`‘`, `’`, `“`, `”`) instead. 
 * Never close self-closing tags such as `<hr>`, `<br>`, `<img>`, or `<input>`.
 * Never use inline css or inline javascript.
