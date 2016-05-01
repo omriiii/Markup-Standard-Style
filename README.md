@@ -4,13 +4,12 @@ Hi! This is my personal coding standards and style when I make my own wbesites. 
 
 I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [Coding Standards & Styleguide](https://github.com/thelifemgmt/coding_standards "thelifemgmt's Coding Standards & Styleguide")
 
-**Some good reference links**
+**Some useful reference links**
 
-* http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+* https://css-tricks.com/centering-css-complete-guide/
 * Another Link
 * Another Link
 
-https://css-tricks.com/centering-css-complete-guide/
 
 https://gsnedders.html5.org/outliner/
 ## HTML Formatting Rules
