@@ -12,7 +12,6 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 
 
 ## HTML Formatting Rules
-*** NOT FINISHED !! ***
 
 * Always indent children elements. A few exceptions below...
 * Always indet using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
@@ -32,7 +31,32 @@ Example:
 		A good cup of &ldquo;Starbucks&rdquo; coffee.
 	</figcaption>
 </figure>
+
+<!-- Terminology & Styling example -->
+<tag attribute="value">
+	content
+</tag>
 ```
+
+## CSS/SASS Formatting Rules
+
+##### CSS
+*** NOT FINISHED !! ***
+
+* Always place an oprning curly brace (`{`) inside a newline *after* the selector.
+* Always place a space after the semi-colon (`:`) before defining your value.
+
+```
+<!-- Terminology & Styling example -->
+.selector
+{
+	property: value;
+}
+```
+
+##### SASS
+* Always prefix partial sas files with an underscore (`_`). Eg. `_colors.scss`,`_fonts.scss` and `_settings.scss`.
+* Always use partials that compile into one `style.scss` file using `@import _partial.scss`.
 
 ## Indenting Exceptions (both HTML and CSS/SASS)
 * (HTML) You can pass up indenting for headers if the length of the content is relatively short.
