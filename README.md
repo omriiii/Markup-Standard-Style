@@ -52,11 +52,11 @@ Example:
 
 ##### CSS/SASS
 ```
-	h1, .h1{ font-size: 72px;}
-	h2, .h2{ font-size: 64px;}
-	h3, .h3{ font-size: 48px;}
-	h4, .h4{ font-size: 36px;}
-	h5, .h5{ font-size: 28px;}
+h1, .h1{ font-size: 72px;}
+h2, .h2{ font-size: 64px;}
+h3, .h3{ font-size: 48px;}
+h4, .h4{ font-size: 36px;}
+h5, .h5{ font-size: 28px;}
 ```
 
 ## Head tag & Type Attributes
