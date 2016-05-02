@@ -207,9 +207,9 @@ Example:
     |
     └── fonts
         ├──   font0.ttf
-        ├──   font0.eot //.eot is used for IE
+        ├──   font0.eot
         ├──   font1.ttf
-        └──   font1.eot //.eot is used for IE
+        └──   font1.eot
 ```
 
 
