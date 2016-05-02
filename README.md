@@ -84,9 +84,10 @@ h4, .h4{ font-size: 36px;}
 h5, .h5{ font-size: 28px;}
 ```
 
-## Head tag & Type Attributes
+## Head tag, Type Attributes and Proper linkage.
 
 * Always comment segemnts in the `<head>` tag. Eg. "Libraries", "Stylesheets", "Meta tags", etc.
+* Always include js scripts at the bottom of the document unless it breaks the page/documentation states otherwise.
 * Never add a`type="text/css"` attribute to stylesheet `<link>` tags.
 * Never add a `type="text/javascript"` attribute to javascript `<script>` tags.
 
@@ -108,12 +109,15 @@ Example:
 	<!---------------------------------------------->
 
 	<!-- BOOTSTRAP CSS -->
-    <link href="/res/libs/css/bootstrap.min.css" rel="stylesheet">
-    
-	<!-- JQUERY JS -->
-    <script src="/res/libs/js/jquery.min.js"></script>
+    	<link href="/res/libs/css/bootstrap.min.css" rel="stylesheet">
     
 </head>
+<body>
+	<!-- Content -->
+
+	<!-- JQUERY JS -->
+	 <script src="/res/libs/js/jquery.min.js"></script>
+</body>
 ```
 
 ## CSS3 Animations
