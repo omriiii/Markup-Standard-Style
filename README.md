@@ -25,6 +25,7 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 
 Example:
 ```
+<!-- Tag Usage & Styling example -->
 <figure>
 	<img src="url(/res/imgs/latte_coffee.png)" alt="A picture of a good old cup of coffee.">
 	<figcaption>
@@ -39,15 +40,15 @@ Example:
 ```
 
 ## CSS/SASS Formatting Rules
+*** NOT FINISHED !! ***
 
 ##### CSS
-*** NOT FINISHED !! ***
 
 * Always place an oprning curly brace (`{`) inside a newline *after* the selector.
 * Always place a space after the semi-colon (`:`) before defining your value.
 
 ```
-<!-- Terminology & Styling example -->
+/* Terminology & Styling example */
 .selector
 {
 	property: value;
