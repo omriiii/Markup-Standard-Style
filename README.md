@@ -177,7 +177,8 @@ Example:
 |
 └── res //(Resources)
     ├── css
-    |   └── style.css //compiled and concatnated style.scss
+    |   ├── style.min.css
+    |   └── style.css
     |
     ├── graphics
     |   ├──   picture0.png
@@ -190,27 +191,16 @@ Example:
     |   └──   functions.js
     |
     ├── sass
-    |   └── style.scss
-    |       └── project
-    |           ├── _project-fonts.scss
-    |           ├── _project-styles.scss
-    |           ├── _project-variables.scss
-    |           |
-    |           ├── components
-    |           |   ├── _buttons.scss
-    |           |   ├── _lists.scss
-    |           |   └── _inputs.scss
-    |           |
-    |           ├── partials
-    |           |   ├── _header.scss
-    |           |   ├── _masthead.scss
-    |           |   └── _footer.scss
-    |           |   
-    |           └── globals
-    |               ├── _mixins.scss
-    |               ├── _typography.scss
-    |               ├── _reset.scss
-    |               └── _base.scss
+    |   ├──   _fonts.scss
+    |   ├──   _variables.scss
+    |   ├──   _buttons.scss
+    |   ├──   _lists.scss
+    |   ├──   _inputs.scss
+    |   ├──   _header.scss
+    |   ├──   _footer.scss
+    |   ├──   _typography.scss
+    |   ├──   _reset.scss
+    |   └──   style.scss
     |
     └── fonts
         ├──   font0.ttf
