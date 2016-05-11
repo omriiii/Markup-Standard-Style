@@ -7,7 +7,7 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 **Some useful reference links**
 
 * https://css-tricks.com/centering-css-complete-guide/
-* Another Link
+* https://css-tricks.com/gulp-for-beginners/
 * Another Link
 
 
@@ -217,7 +217,7 @@ Sometimes you will overlook/misuse your markups. Use these websites to check if 
 * http://html5doctor.com/
 * https://toolbox.seositecheckup.com/ (15 Free checks *per account ;)*)
 
-### Notes
+### Other references
 Some more stuff coming `soon™`.
 
 I left this GitHub editor style link here for me becasue I know I'll need it again at some point.
