@@ -216,6 +216,7 @@ Sometimes you will overlook/misuse your markups. Use these websites to check if 
 * Outlining article: https://www.smashingmagazine.com/2011/08/html5-and-the-document-outlining-algorithm/
 * http://html5doctor.com/
 * https://toolbox.seositecheckup.com/ (15 Free checks *per account ;)*)
+* https://developers.google.com/speed/pagespeed/insights/
 
 ### Other references
 Some more stuff coming `soon™`.
