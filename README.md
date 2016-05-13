@@ -88,7 +88,7 @@ h5, .h5{ font-size: 28px;}
 
 * Always comment segemnts in the `<head>` tag. Eg. "Libraries", "Stylesheets", "Meta tags", etc.
 * Always include js scripts at the bottom of the document unless it breaks the page/documentation states otherwise.
-* Never add a`type="text/css"` attribute to stylesheet `<link>` tags.
+* Never add a `type="text/css"` attribute to stylesheet `<link>` tags.
 * Never add a `type="text/javascript"` attribute to javascript `<script>` tags.
 
 In HTML5 the default value for the `type` attribute will always be text so it's not needed with those two tags.
