@@ -56,7 +56,7 @@ Example:
 ```
 
 ##### SASS
-* Always prefix partial sas files with an underscore (`_`). Eg. `_colors.scss`,`_fonts.scss` and `_settings.scss`.
+* Always prefix partial sas files with an underscore (`_`). Eg. `_variables.scss`,`_fonts.scss` and `_settings.scss`.
 * Always use partials that compile into one `style.scss` file using `@import _partial.scss`.
 
 ## Indenting Exceptions (both HTML and CSS/SASS)
