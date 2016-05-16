@@ -14,7 +14,7 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 ## HTML Formatting Rules
 
 * Always indent children elements. A few exceptions below...
-* Always indet using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
+* Always indent using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
 * Always include an `alt=""` attribute to `<img>` tags.
 * Always create a `<label>` tag for an `<input>` tag.
 * Try to use the [BEM (Block Element Modifier)](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) naming convention when possible.
