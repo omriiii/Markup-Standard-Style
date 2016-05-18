@@ -33,6 +33,8 @@ Example:
 	</figcaption>
 </figure>
 
+```
+```
 <!-- Terminology & Styling example -->
 <tag attribute="value">
 	content
@@ -58,6 +60,42 @@ Example:
 ##### SASS
 * Always prefix partial sas files with an underscore (`_`). Eg. `_variables.scss`,`_fonts.scss` and `_settings.scss`.
 * Always use partials that compile into one `style.scss` file using `@import _partial.scss`.
+* Keep contextually close selectors next to each other in your code in the appropriate file. (Example below...).
+* Always label the types of styles at the top of the document.
+
+
+```
+/* coffee */
+/* tea */
+
+/* coffee */
+/*************************************/
+.coffee
+{
+	//Some styles
+}
+
+.coffee__header
+{
+	//Some styles
+}
+
+/* tea */
+/*************************************/
+.tea
+{
+	//Some styles
+}.tea--earl-gray
+{
+	//Some styles
+}
+
+```
+```
+/* Terminology & Styling example */
+@import _partial.scss;
+```
+
 
 ## Indenting Exceptions (both HTML and CSS/SASS)
 * (HTML) You can pass up indenting for headers if the length of the content is relatively short.
