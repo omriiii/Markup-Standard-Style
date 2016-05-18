@@ -13,7 +13,7 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 
 ## HTML Formatting Rules
 
-* Always indent children elements. A few exceptions below...
+* Always indent children elements. An exception below...
 * Always indent using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
 * Always include an `alt=""` attribute to `<img>` tags.
 * Always create a `<label>` tag for an `<input>` tag.
@@ -48,6 +48,7 @@ Example:
 
 * Always place an oprning curly brace (`{`) inside a newline *after* the selector.
 * Always place a space after the semi-colon (`:`) before defining your value.
+* Always indent children proerties & values. An exception below...
 * Always keep contextually close selectors next to each other in your code. (Example below...).
 * Always label the types of styles at the top of the document.
 
