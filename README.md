@@ -53,10 +53,10 @@ Example:
 
 Code example
 ```
-/* coffee */
-/* tea */
+/* .coffee */
+/* .tea */
 
-/* coffee */
+/* .coffee */
 /*************************************/
 .coffee
 {
@@ -70,7 +70,7 @@ Code example
 
 
 
-/* tea */
+/* .tea */
 /*************************************/
 .tea
 {
