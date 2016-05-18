@@ -23,7 +23,7 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 * Never use inline css or inline javascript.
 * Never use an `id=""` attribute unless it's for an `<input>` tag. 
 
-Example:
+HTML5 Usage & Styling example:
 ```
 <figure>
 	<img src="url(/res/imgs/latte_coffee.png)" alt="A picture of a good old cup of coffee.">
@@ -36,7 +36,6 @@ Example:
 
 Terminology & Styling example
 ```
-<!-- Terminology & Styling example -->
 <tag attribute="value">
 	content
 </tag>
@@ -53,7 +52,7 @@ Terminology & Styling example
 * Always keep contextually close selectors next to each other in your code.
 * Always name the types of styles that are going to be defined inside the document at the top of the document.
 
-Code example
+CSS3 Usage & Styling example:
 ```
 /* .coffee */
 /* .tea */
