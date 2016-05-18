@@ -93,7 +93,7 @@ selector
 ```
 
 ##### SASS
-* Always prefix partial sas files with an underscore (`_`). Eg. `_variables.scss`,`_fonts.scss` and `_settings.scss`.
+* Always prefix partial sass files with an underscore (`_`). Eg. `_variables.scss`,`_fonts.scss` and `_settings.scss`.
 * Always use partials that compile into one `style.scss` file using `@import _partial.scss`.
 * Always place the appropriate styles/varaibles in the appropirate files.
 
