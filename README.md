@@ -34,6 +34,8 @@ Example:
 </figure>
 
 ```
+
+Terminology & Styling example
 ```
 <!-- Terminology & Styling example -->
 <tag attribute="value">
