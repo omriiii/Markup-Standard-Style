@@ -49,8 +49,8 @@ Example:
 * Always place an oprning curly brace (`{`) inside a newline *after* the selector.
 * Always place a space after the semi-colon (`:`) before defining your value.
 * Always indent children proerties & values. An exception below...
-* Always keep contextually close selectors next to each other in your code. (Example below...).
-* Always label the types of styles at the top of the document.
+* Always keep contextually close selectors next to each other in your code.
+* Always name the types of styles that are going to be defined inside the document at the top of the document.
 
 Code example
 ```
