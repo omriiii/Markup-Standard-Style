@@ -48,22 +48,10 @@ Example:
 
 * Always place an oprning curly brace (`{`) inside a newline *after* the selector.
 * Always place a space after the semi-colon (`:`) before defining your value.
-
-```
-/* Terminology & Styling example */
-.selector
-{
-	property: value;
-}
-```
-
-##### SASS
-* Always prefix partial sas files with an underscore (`_`). Eg. `_variables.scss`,`_fonts.scss` and `_settings.scss`.
-* Always use partials that compile into one `style.scss` file using `@import _partial.scss`.
-* Keep contextually close selectors next to each other in your code in the appropriate file. (Example below...).
+* Always keep contextually close selectors next to each other in your code. (Example below...).
 * Always label the types of styles at the top of the document.
 
-
+Code example
 ```
 /* coffee */
 /* tea */
@@ -80,19 +68,36 @@ Example:
 	//Some styles
 }
 
+
+
 /* tea */
 /*************************************/
 .tea
 {
 	//Some styles
-}.tea--earl-gray
+}
+
+.tea--earl-gray
 {
 	//Some styles
 }
+```
 
+Terminology & Styling example
 ```
+selector
+{
+	property: value;
+}
 ```
-/* Terminology & Styling example */
+
+##### SASS
+* Always prefix partial sas files with an underscore (`_`). Eg. `_variables.scss`,`_fonts.scss` and `_settings.scss`.
+* Always use partials that compile into one `style.scss` file using `@import _partial.scss`.
+* Always place the appropriate styles/varaibles in the appropirate files.
+
+Terminology & Styling example
+```
 @import _partial.scss;
 ```
 
