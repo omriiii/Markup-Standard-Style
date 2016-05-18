@@ -8,7 +8,7 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 
 * https://css-tricks.com/centering-css-complete-guide/
 * https://css-tricks.com/gulp-for-beginners/
-* Another Link
+* http://clubmate.fi/sass-maps-syntax-examples-and-good-things/
 
 
 ## HTML Formatting Rules
