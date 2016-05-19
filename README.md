@@ -4,11 +4,6 @@ Hi! This is my personal coding standards and style when I make my own wbesites. 
 
 I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [Coding Standards & Styleguide](https://github.com/thelifemgmt/coding_standards "thelifemgmt's Coding Standards & Styleguide")
 
-**Some useful reference links**
-
-* https://css-tricks.com/centering-css-complete-guide/
-* https://css-tricks.com/gulp-for-beginners/
-* http://clubmate.fi/sass-maps-syntax-examples-and-good-things/
 
 
 ## HTML Formatting Rules
@@ -263,6 +258,13 @@ Sometimes you will overlook/misuse your markups. Use these websites to check if 
 * https://developers.google.com/speed/pagespeed/insights/
 
 ### Other references
+
+**Some useful reference links**
+* https://css-tricks.com/centering-css-complete-guide/
+* https://css-tricks.com/gulp-for-beginners/
+* http://clubmate.fi/sass-maps-syntax-examples-and-good-things/
+* https://css-tricks.com/almanac/properties/t/text-rendering/
+
 Some more stuff coming `soon™`.
 
 I left this GitHub editor style link here for me becasue I know I'll need it again at some point.
