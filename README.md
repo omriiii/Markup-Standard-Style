@@ -147,8 +147,10 @@ Example:
 	<!-- LIBRARIES -->
 	<!---------------------------------------------->
 
+	<!-- PROJECT STYLESHEET -->
 	<!-- BOOTSTRAP CSS -->
-    	<link href="/res/libs/css/bootstrap.min.css" rel="stylesheet">
+	<!-- FONT-AWESOME CSS -->
+    	<link href="/res/libs/css/style.css" rel="stylesheet">
     
 </head>
 <body>
