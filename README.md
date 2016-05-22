@@ -262,11 +262,11 @@ Sometimes you will overlook/misuse your markups. Use these websites to check if 
 ### Other references
 
 **Some useful reference links**
-* https://css-tricks.com/centering-css-complete-guide/
-* https://css-tricks.com/gulp-for-beginners/
-* http://clubmate.fi/sass-maps-syntax-examples-and-good-things/
-* https://css-tricks.com/almanac/properties/t/text-rendering/
-* http://codepen.io/chris22smith/pen/pymBWL
+* https://css-tricks.com/centering-css-complete-guide/ Ways to center things
+* https://css-tricks.com/gulp-for-beginners/ Gulp for beginners
+* http://clubmate.fi/sass-maps-syntax-examples-and-good-things/ Sass maps
+* https://css-tricks.com/almanac/properties/t/text-rendering/ Cool extra typography thing
+* http://codepen.io/chris22smith/pen/pymBWL All of `<input>` `type=""`s
 
 Some more stuff coming `soon™`.
 
