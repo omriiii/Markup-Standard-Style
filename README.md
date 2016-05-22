@@ -266,6 +266,7 @@ Sometimes you will overlook/misuse your markups. Use these websites to check if 
 * https://css-tricks.com/gulp-for-beginners/
 * http://clubmate.fi/sass-maps-syntax-examples-and-good-things/
 * https://css-tricks.com/almanac/properties/t/text-rendering/
+* http://codepen.io/chris22smith/pen/pymBWL
 
 Some more stuff coming `soon™`.
 
