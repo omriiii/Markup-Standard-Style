@@ -201,20 +201,18 @@ Example:
 //root
 |
 ├── views //All of the pages in the website.
-|   ├── page0.php //Eg. Homepage
-|   ├── page1.php //Eg. About Us
-|   └── page2.php //Eg. Contact Us
+|   ├── page0.php
+|   ├── page1.html
+|   └── homepagefile.php
 |
 ├── libs //(Libraries)
 |   ├── css
 |   |   ├── bootstrap.css
-|   |   └── bootstrap.min.css
+|   |   └── awesomefont.css
 |   |
 |   └── js
 |       ├── jQuery.js
-|       ├── jQuery.min.js
-|       ├── angularJS.js
-|       └── angularJS.min.js
+|       └── angularJS.js
 |
 └── res //(Resources)
     ├── css
@@ -222,32 +220,40 @@ Example:
     |   └── style.css
     |
     ├── graphics
-    |   ├──   picture0.png
-    |   ├──   picture0.jpg
-    |   ├──   logo.svg
-    |   └──   favicon.ico
+    |   ├── picture0.png
+    |   ├── picture0.jpg
+    |   ├── logo.svg
+    |   └── favicon.ico
     |
     ├── js
-    |   ├──   app.js
-    |   └──   functions.js
+    |   ├── app.js
+    |   └── functions.js
     |
     ├── sass
-    |   ├──   _fonts.scss
-    |   ├──   _variables.scss
-    |   ├──   _buttons.scss
-    |   ├──   _lists.scss
-    |   ├──   _inputs.scss
-    |   ├──   _header.scss
-    |   ├──   _footer.scss
-    |   ├──   _typography.scss
-    |   ├──   _reset.scss
-    |   └──   style.scss
+    |   ├──   helper
+    |   |   ├── _typography-helper.scss
+    |   |   ├── _buttons-helper.scss
+    |   |   ├── _lists-helper.scss
+    |   |   ├── _inputs-helper.scss
+    |   |   ├── _header-helper.scss
+    |   |   └── _footer-helper.scss
+    |   ├──   layout
+    |   |   ├── _typography.scss
+    |   |   ├── _buttons.scss
+    |   |   ├── _lists.scss
+    |   |   ├── _inputs.scss
+    |   |   ├── _header.scss
+    |   |   └── _footer.scss
+    |   ├── _fonts.scss
+    |   ├── _variables.scss
+    |   ├── _reset.scss
+    |   └── style.scss
     |
     └── fonts
-        ├──   font0.ttf
-        ├──   font0.eot
-        ├──   font1.ttf
-        └──   font1.eot
+        ├── font0.ttf
+        ├── font0.eot
+        ├── font1.woff2
+        └── font1.svg
 ```
 
 
