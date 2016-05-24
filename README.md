@@ -135,8 +135,8 @@ In HTML5 the default value for the `type` attribute will always be text so it's 
 Example:
 ```
 <head>
-    <!-- PAGE INFO & META TAGS -->
-	<!---------------------------------------------->
+	<!-- PAGE INFO & META TAGS -->
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 	
 	<meta charset="UTF-8">
 	<meta name="author" content="Omrii">
@@ -144,8 +144,8 @@ Example:
 	<title>Title of page</title>
 		
 		
-	<!-- LIBRARIES -->
-	<!---------------------------------------------->
+	<!-- STYLESHEET -->
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 	<!-- PROJECT STYLESHEET -->
 	<!-- BOOTSTRAP CSS -->
@@ -157,7 +157,7 @@ Example:
 	<!-- Content -->
 
 	<!-- LIBRARIES -->
-	<!---------------------------------------------->
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 	 
 	<!-- JQUERY JS -->
 	<script src="/res/libs/js/jquery.min.js"></script>
