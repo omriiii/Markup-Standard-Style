@@ -164,12 +164,6 @@ Example:
 </body>
 ```
 
-## CSS3 Animations
-*** NOT FINISHED !! ***
-
-* Always use the `transform` property when animating elements with CSS.
-* You have a lot of options! Pick the best ones: https://api.jqueryui.com/easings/
-
 ## Resource File Naming
 
 ** Note! Kind of iffy about the first two rules. Considering merging them or something... **
