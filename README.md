@@ -6,7 +6,7 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 
 
 
-## HTML Formatting Rules
+## HTML5 Formatting Rules
 
 * Always indent children elements. An exception below...
 * Always indent using *only* the "tab" character `(ascii: 9)`. Never use "space" characters `(ascii: 32)`. 
@@ -36,10 +36,10 @@ Terminology & Styling example
 </tag>
 ```
 
-## CSS/SASS Formatting Rules
+## CSS3/SASS Formatting Rules
 *** NOT FINISHED !! ***
 
-##### CSS
+##### CSS3
 
 * Always place an oprning curly brace (`{`) inside a newline *after* the selector.
 * Always place a space after the semi-colon (`:`) before defining your value.
@@ -102,7 +102,7 @@ Terminology & Styling example
 * (HTML) You can pass up indenting for headers if the length of the content is relatively short.
 * (CSS/SASS) You can pass up indenting if you're defining only one property in a series of related elements.
 
-##### HTML
+##### HTML Formatting Rules
 ```
 <section>
 	<h1>Coffee</h1>
@@ -122,6 +122,9 @@ h3, .h3{ font-size: 48px;}
 h4, .h4{ font-size: 36px;}
 h5, .h5{ font-size: 28px;}
 ```
+
+## Javascript Formatting Rules
+* Always prefix a javascript hook class with a `js-`, to create something like `.js-parralx`.
 
 ## Head tag, Type Attributes and Proper linkage.
 
