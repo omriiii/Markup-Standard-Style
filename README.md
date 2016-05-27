@@ -272,5 +272,11 @@ Sometimes you will overlook/misuse your markups. Use these websites to check if 
 
 Some more stuff coming `soon™`.
 
+If you've made it through this whole readme then thanks for reading! or just scrolling down here or whatever.
+
+* Responsive images
+* ES6
+* 
+
 I left this GitHub editor style link here for me becasue I know I'll need it again at some point.
 [don't mine me c:](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "(old man voice) GET OUTTA HERE!!")
