@@ -98,9 +98,9 @@ Terminology & Styling example
 ```
 
 
-## Indenting Exceptions (both HTML and CSS/SASS)
-* (HTML) You can pass up indenting for headers if the length of the content is relatively short.
-* (CSS/SASS) You can pass up indenting if you're defining only one property in a series of related elements.
+## Indenting Exceptions (both HTML5 and CSS3/SASS)
+* (HTML5) You can pass up indenting for headers if the length of the content is relatively short.
+* (CSS3/SASS) You can pass up indenting if you're defining only one property in a series of related elements.
 
 ##### HTML Formatting Rules
 ```
@@ -114,7 +114,7 @@ Terminology & Styling example
 </section>
 ```
 
-##### CSS/SASS
+##### CSS3/SASS
 ```
 h1, .h1{ font-size: 72px;}
 h2, .h2{ font-size: 64px;}
