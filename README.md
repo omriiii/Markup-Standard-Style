@@ -189,9 +189,6 @@ hero_bg-webm.webm
 * `src` will include all of the files of the project before compilation and concatnation. 
 * `dist` will include only concatnated and compiled assets. Do not include SASS files.
 
-Things to think about:
-* Different html pages that are included in the website. includes directory maybe? (things like navbar.html)
-
 Example:
 ```
 //root
@@ -199,7 +196,10 @@ Example:
 ├── views //All of the pages in the website.
 |   ├── page0.php
 |   ├── page1.html
-|   └── homepagefile.php
+|   ├── homepagefile.php
+|   └── includes
+| 	├── header.html
+|   	└── footer.html
 |
 ├── libs //(Libraries)
 |   ├── css
