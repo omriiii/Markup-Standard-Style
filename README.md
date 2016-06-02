@@ -37,8 +37,6 @@ Terminology & Styling example
 ```
 
 ## CSS3/SASS Formatting Rules
-*** NOT FINISHED !! ***
-
 ##### CSS3
 
 * Always place an oprning curly brace (`{`) inside a newline *after* the selector.
@@ -91,10 +89,12 @@ selector
 * Always prefix partial sass files with an underscore (`_`). Eg. `_variables.scss`,`_fonts.scss` and `_settings.scss`.
 * Always use partials that compile into one `style.scss` file using `@import _partial.scss`.
 * Always place the appropriate styles/varaibles in the appropirate files.
+* Always use camel casing for variables. eg. `$colorPrimary: #123456`
 
 Terminology & Styling example
 ```
 @import _partial.scss;
+$colorPrimary: #123456; 
 ```
 
 
