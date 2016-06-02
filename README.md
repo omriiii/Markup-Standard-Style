@@ -166,30 +166,22 @@ Example:
 </body>
 ```
 
-## Resource File Naming
+## File Naming & Project Organization
 
-** Note! Kind of iffy about the first two rules. Considering merging them or something... **
-
-* Always use underscores characters (`_`) to specify catagorical context to  about the contents of the file (Eg. "nav", "hero", "footer")
-* Always use dash characters (`-`) to specify an attribute/charactristic about the contents of the file. (Eg. "large", "owen", "min")
+* Always use dash characters (`-`) when wanting to spacing something. Eg. `bg-primary.png`.
 * Always use lowercase letters.
 * Always start with zero when enumerating files. (Eg. `bg0.png`, `bg1.png`, `bg2.png`, etc...)
+* Always name the home page html file "`homepagefile.html`".
 
-Example:
+Some filenames:
 ```
-nav_companylogo.png
-nav_companylogo-large.png
-hero_bg-mp4.mp4
-hero_bg-webm.webm
+nav-companylogo.png
+nav-companylogo-large.png
+hero-bg-mp4.mp4
+hero-bg-webm.webm
 ```
-## Project Organization
-*** NOT FINISHED !! ***
 
-* Always keep two directories for your project, `src` (for Source) and `dist` (for Distribution)
-* `src` will include all of the files of the project before compilation and concatnation. 
-* `dist` will include only concatnated and compiled assets. Do not include SASS files.
-
-Example:
+Project example:
 ```
 //root
 |
@@ -211,10 +203,6 @@ Example:
 |       └── angularJS.js
 |
 └── res //(Resources)
-    ├── css
-    |   ├── style.min.css
-    |   └── style.css
-    |
     ├── graphics
     |   ├── picture0.png
     |   ├── picture0.jpg
