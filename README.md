@@ -105,8 +105,8 @@ $colorPrimary: #123456;
 ##### HTML Formatting Rules
 ```
 <section>
-	<h1>Coffee</h1>
-	<p>
+	<h1>Coffee</h1> <!-- Exception. Content is small. -->
+	<p> <!-- Non-exception. Content is too large. -->
 		Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries from 
 		the Coffea plant. The genus Coffea is native to tropical Africa, Madagascar, and the Comoros,
 		Mauritius and Réunion in the Indian Ocean.
