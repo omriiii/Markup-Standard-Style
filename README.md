@@ -21,7 +21,7 @@ I ~~stole~~ got the idea from [thelifemgmt](https://github.com/thelifemgmt)'s [C
 HTML5 Usage & Styling example:
 ```
 <figure>
-	<img src="url(/res/imgs/latte_coffee.png)" alt="A picture of a good old cup of coffee.">
+	<img src="/res/imgs/latte_coffee.png" alt="A picture of a good old cup of coffee.">
 	<figcaption>
 		A good cup of &ldquo;Starbucks&rdquo; coffee.
 	</figcaption>
