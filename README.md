@@ -125,6 +125,7 @@ h5, .h5{ font-size: 28px;}
 
 ## Javascript Formatting Rules
 * Always prefix a javascript hook class with a `js-`, to create something like `.js-parralx`.
+* Never give a javascript hook class any css properties.
 
 ## Head tag, Type Attributes and Proper linkage.
 
