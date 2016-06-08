@@ -39,7 +39,7 @@ Terminology & Styling example
 ## CSS3/SASS Formatting Rules
 ##### CSS3
 
-* Always place an oprning curly brace (`{`) inside a newline *after* the selector.
+* Always place an opening curly brace (`{`) inside a newline *after* the selector.
 * Always place a space after the semi-colon (`:`) before defining your value.
 * Always indent children proerties & values. An exception below...
 * Always keep contextually close selectors next to each other in your code.
